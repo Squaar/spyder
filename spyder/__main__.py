@@ -1,10 +1,6 @@
-import logging
 from . import core
+from . import util
 
-logger = logging.getLogger('spyder')
-logger.setLevel(logging.INFO)
-sh = logging.StreamHandler()
-sh.setFormatter(logging.Formatter('%(asctime)s %(levelname)s %(name)s %(message)s'))
-logger.addHandler(sh)
+logger = util.config_root_logger()
 
 core.main()
