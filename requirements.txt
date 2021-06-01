@@ -7,4 +7,4 @@ psycopg2==2.7.6.1
 requests==2.21.0
 spyder==0.1
 SQLAlchemy==1.2.15
-urllib3==1.24.1
+urllib3==1.26.5
